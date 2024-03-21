@@ -2,8 +2,9 @@
 
 Code is part of a research paper that can be found here: https://link.springer.com/chapter/10.1007/978-3-031-14054-9_41 
 
-- The data visualization tool provides a quick and easy way to visualize and compare time-series data.
-- The visualizations provide insight into how different hotel rooms compare, deviations of room temperature from setpoint temperature, data distribution, correlations between sensory data parameters, and the degree of correlation of room temperature compared to other parameters. The application is aimed at a wide range of users, from lay people and hotel staff to data analysts and scientists conducting research in this area.
+The data visualization tool offers a convenient solution for visualizing and comparing time-series data swiftly. It furnishes insights into various aspects including comparisons between different hotel rooms, temperature variations from the setpoint, data distribution, correlations among sensory parameters, and the correlation degree of room temperature with other parameters. Designed for a broad spectrum of users ranging from laypeople and hotel staff to data analysts and researchers, the application aims to facilitate understanding and analysis in this domain.
+
+The web application was developed by utilizing the Dash framework, which is uses Flask and React.js. Leveraging the Dash framework and associated packages like Plotly, the visualization tool was constructed entirely in the Python programming language.
 
 Application dashboards are divided into two web pages: (1) detailed analysis of one hotel room, and (2) comparison of two selected hotel rooms. The corresponding pages are shown below:
 
