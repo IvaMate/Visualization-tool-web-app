@@ -26,7 +26,6 @@ def clean_data(df):
     return df
 
 #Function for reading 2 datasets on page 2 
-#output is a dictionary
 def read_data(data):
     if data == 'Room_918':
         dataset0 = pd.read_csv('data/2013_11_12_918.csv')
@@ -63,8 +62,6 @@ def split_filter_part(filter_part):
                     except ValueError:
                         value = value_part
 
-                # word operators need spaces after them in the filter string,
-                # but we don't want these later
                 return name, operator_type[0].strip(), value
 
     return [None] * 3
